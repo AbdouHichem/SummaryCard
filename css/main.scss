@@ -14,7 +14,7 @@ body {
   background-image: url(../images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
-    min-height:100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,43 +53,41 @@ body {
 .payment {
   display: flex;
   align-items: center;
-  margin:2em 0em;
+  margin: 2em 0em;
   background-color: var(--pale-blue);
-  
-  img{
-      margin: 0em 1em;
+
+  img {
+    margin: 0em 1em;
   }
-  .details{
+  .details {
     display: flex;
-    margin: 0em 2em 0 0 ;
+    margin: 0em 2em 0 0;
     flex-direction: column;
-    h1{
-        margin: 0;
-        align-self: start;
-        font-weight: 700;
-        font-size:1em;
-        color: var(--Dark-blue);
+    h1 {
+      margin: 0;
+      align-self: start;
+      font-weight: 700;
+      font-size: 1em;
+      color: var(--Dark-blue);
     }
-    h2{
-        margin: 0;
-        align-self: start;
-        font-weight: 400;
-        font-size:.8em;
-        color: var(--Dark-blue);
+    h2 {
+      margin: 0;
+      align-self: start;
+      font-weight: 400;
+      font-size: 0.8em;
+      color: var(--Dark-blue);
     }
   }
-  a{
-      margin-left: auto;
-      align-self:right;
-      &:hover{
-          text-decoration: none;
-          cursor: pointer;
-          color: var(--Dark-blue);
-      }
+  a {
+    margin-left: auto;
+    align-self: right;
+    &:hover {
+      text-decoration: none;
+      cursor: pointer;
+      color: var(--Dark-blue);
+    }
   }
 }
-
-
 
 .buttonHero {
   display: flex;
@@ -97,7 +95,6 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-
 
 .ProceedPayment {
   padding: 0.8em 3em;
@@ -109,7 +106,7 @@ body {
   border-radius: 0.7em;
   &:hover {
     cursor: pointer;
-    opacity: .8;
+    opacity: 0.8;
   }
 }
 .CancelPayment {
@@ -124,7 +121,14 @@ body {
   margin-bottom: 0.5em;
   &:hover {
     cursor: pointer;
-    font-weight:bold;
+    font-weight: bold;
     color: var(--Dark-blue);
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

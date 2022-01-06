@@ -168,4 +168,12 @@ body {
   font-weight: bold;
   color: var(--Dark-blue);
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 /*# sourceMappingURL=main.css.map */
